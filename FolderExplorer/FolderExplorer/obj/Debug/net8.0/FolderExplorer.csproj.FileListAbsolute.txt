@@ -1,0 +1,14 @@
+C:\Users\Daniel\Desktop\C#_Console\FolderExplorer\FolderExplorer\bin\Debug\net8.0\FolderExplorer.exe
+C:\Users\Daniel\Desktop\C#_Console\FolderExplorer\FolderExplorer\bin\Debug\net8.0\FolderExplorer.deps.json
+C:\Users\Daniel\Desktop\C#_Console\FolderExplorer\FolderExplorer\bin\Debug\net8.0\FolderExplorer.runtimeconfig.json
+C:\Users\Daniel\Desktop\C#_Console\FolderExplorer\FolderExplorer\bin\Debug\net8.0\FolderExplorer.dll
+C:\Users\Daniel\Desktop\C#_Console\FolderExplorer\FolderExplorer\bin\Debug\net8.0\FolderExplorer.pdb
+C:\Users\Daniel\Desktop\C#_Console\FolderExplorer\FolderExplorer\obj\Debug\net8.0\FolderExplorer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Daniel\Desktop\C#_Console\FolderExplorer\FolderExplorer\obj\Debug\net8.0\FolderExplorer.AssemblyInfoInputs.cache
+C:\Users\Daniel\Desktop\C#_Console\FolderExplorer\FolderExplorer\obj\Debug\net8.0\FolderExplorer.AssemblyInfo.cs
+C:\Users\Daniel\Desktop\C#_Console\FolderExplorer\FolderExplorer\obj\Debug\net8.0\FolderExplorer.csproj.CoreCompileInputs.cache
+C:\Users\Daniel\Desktop\C#_Console\FolderExplorer\FolderExplorer\obj\Debug\net8.0\FolderExplorer.dll
+C:\Users\Daniel\Desktop\C#_Console\FolderExplorer\FolderExplorer\obj\Debug\net8.0\refint\FolderExplorer.dll
+C:\Users\Daniel\Desktop\C#_Console\FolderExplorer\FolderExplorer\obj\Debug\net8.0\FolderExplorer.pdb
+C:\Users\Daniel\Desktop\C#_Console\FolderExplorer\FolderExplorer\obj\Debug\net8.0\FolderExplorer.genruntimeconfig.cache
+C:\Users\Daniel\Desktop\C#_Console\FolderExplorer\FolderExplorer\obj\Debug\net8.0\ref\FolderExplorer.dll
