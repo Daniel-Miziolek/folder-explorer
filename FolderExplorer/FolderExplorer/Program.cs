@@ -64,6 +64,14 @@ namespace FolderExplorer
                         OpenFile(path);
                     }
                 }
+                else if (keyInfo.Key == ConsoleKey.Delete)
+                {
+                    string path = entries[currentLine];
+                    if (File.Exists(path))
+                    {
+                        DeleteFile(path, ref entries, ref currentLine, ref topLine, windowHeight);
+                    }
+                }
                 else if (keyInfo.Key == ConsoleKey.LeftArrow)
                 {
                     if (pathHistory.Count > 0)
@@ -138,6 +146,29 @@ namespace FolderExplorer
             catch (Exception ex)
             {
                 Console.WriteLine($"Could not open the file: {ex.Message}");
+            }
+        }
+
+        static void DeleteFile(string path, ref string[] entries, ref int currentLine, ref int topLine, int windowHeight)
+        {
+            try
+            {
+                File.Delete(path);
+                entries = Directory.GetFileSystemEntries(Path.GetDirectoryName(path));
+                if (currentLine >= entries.Length)
+                {
+                    currentLine = entries.Length - 1;
+                }
+                if (topLine + windowHeight > entries.Length)
+                {
+                    topLine = Math.Max(0, entries.Length - windowHeight);
+                }
+                Console.Clear();
+                DisplayEntries(entries, currentLine, topLine, windowHeight);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Could not delete the file: {ex.Message}");
             }
         }
     }
